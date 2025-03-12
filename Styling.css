@@ -3,9 +3,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('body_background.jpg'); /* Body background image */
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: sans-serif;
 }
 
@@ -61,15 +58,4 @@ body {
     border-radius: 5px;
     object-fit: contain;
     z-index: 2;
-}
-
-.corner-pic-left {
-    width: 50px; /* Adjust size as needed */
-    height: 50px; /* Adjust size as needed */
-    position: absolute;
-    top: 10px; /* Adjust position as needed */
-    left: 10px; /* Adjust position as needed */
-    border-radius: 5px; /* Optional: Rounded corners */
-    object-fit: contain; /* makes sure the image fits within the bounds */
-    z-index: 2; /* Place corner image above content */
 }
