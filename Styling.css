@@ -5,12 +5,12 @@ color: #666;
 margin-bottom: 10px;
 
   
-  
-
 }
+
+
 .profile-pic {
-width: 150px;
-height: 160px;
+width: 140px;
+height: 130px;
 
 border-radius: 50%; /* Make it a circle */
 
@@ -24,17 +24,6 @@ margin: 20px; /* Add margin to the image */
 .contact {
 
 margin-bottom: 5px;
-
-}
-
-
-body {
-  
-  font-family: "Consolas", "Source Code Pro", monospace;
-}
-
-{
-  font-family: "Fira Code", "JetBrains Mono", monospace;
 
 }
 
@@ -55,7 +44,7 @@ font-family: "Consolas", "Source Code Pro", monospace;
 }
 .business-card {
 
-width: 450px; /* Set the width of the card */
+width: 400px; /* Set the width of the card */
 
 background-color: white;
 
