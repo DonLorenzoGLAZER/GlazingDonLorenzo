@@ -56,8 +56,8 @@ body {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 15px;
+    right: 15px;
     border-radius: 5px;
     object-fit: contain;
     z-index: 2;
@@ -67,8 +67,8 @@ body {
     width: 50px; /* Adjust size as needed */
     height: 50px; /* Adjust size as needed */
     position: absolute;
-    top: 10px; /* Adjust position as needed */
-    left: 10px; /* Adjust position as needed */
+    top: 5px; /* Adjust position as needed */
+    left: 5px; /* Adjust position as needed */
     border-radius: 5px; /* Optional: Rounded corners */
     object-fit: contain; /* makes sure the image fits within the bounds */
     z-index: 2; /* Place corner image above content */
