@@ -1,51 +1,6 @@
-.title {
-
-color: #666;
-
-margin-bottom: 10px;
-
-  
-}
-
-
-.profile-pic {
-width: 140px;
-height: 130px;
-
-border-radius: 50%; /* Make it a circle */
-
-object-fit: cover; /* Maintain aspect ratio */
-margin: 20px; /* Add margin to the image */
-}
-
-
-
-
-.contact {
-
-margin-bottom: 5px;
-
-}
-
-body {
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-min-height: 100vh;
-
-background-color: #f0f0f0;
-
-font-family: Consolas;
-
-}
-
 .business-card {
 
-width: 400px; /* Set the width of the card */
+width: 350px; /* Set the width of the card */
 
 background-color: white;
 
@@ -65,7 +20,19 @@ align-items: center;
 
 }
 
+.profile-pic {
 
+width: 140px;
+
+height: 140px;
+
+border-radius: 50%; /* Make it a circle */
+
+object-fit: cover; /* Maintain aspect ratio */
+
+margin: 20px; /* Add margin to the image */
+
+}
 
 .card-content {
 
@@ -78,3 +45,33 @@ padding: 20px; /* Add padding to the content */
 margin-top: 0; /* Remove default margin */
 
 font-size: 1.5em;}
+
+.title {
+
+color: #666;
+
+margin-bottom: 10px;
+
+}
+
+.contact {
+
+margin-bottom: 5px;
+
+}
+
+body {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+min-height: 100vh;
+
+background-color: #f0f0f0;
+
+font-family: sans-serif;
+
+}
