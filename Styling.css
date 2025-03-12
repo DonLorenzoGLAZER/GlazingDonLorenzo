@@ -39,9 +39,10 @@ min-height: 100vh;
 
 background-color: #f0f0f0;
 
-font-family: "Consolas", "Source Code Pro", monospace;
+font-family: Consolas;
 
 }
+
 .business-card {
 
 width: 400px; /* Set the width of the card */
@@ -50,7 +51,7 @@ background-color: white;
 
 border: 1px solid #ccc;
 
-border-radius: 10px;
+border-radius: 8px;
 
 overflow: hidden; /* Prevent image overflow */
 
