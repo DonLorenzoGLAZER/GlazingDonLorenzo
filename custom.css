@@ -1,0 +1,170 @@
+:root {
+    --gaming-accent: #ff4081;
+    --gaming-glow: 0 0 10px rgba(255, 64, 129, 0.5);
+}
+
+body {
+    background-color: var(--bs-dark);
+    min-height: 100vh;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--gaming-accent);
+    text-shadow: var(--gaming-glow);
+    margin-left: 1rem;
+}
+
+.class-card {
+    background: rgba(33, 37, 41, 0.9);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.class-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.class-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.class-image img:hover {
+    transform: scale(1.05);
+}
+
+.class-card:hover {
+    transform: translateY(-5px);
+}
+
+.class-icon {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--gaming-accent);
+}
+
+.class-name {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--bs-light);
+}
+
+.class-description {
+    text-align: center;
+    color: var(--bs-gray-400);
+    margin-bottom: 2rem;
+}
+
+.bonds-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.bonds-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: var(--gaming-accent);
+}
+
+.bonds-amount {
+    font-weight: bold;
+    color: var(--bs-light);
+}
+
+.bonds-label {
+    color: var(--bs-gray-400);
+    font-size: 1rem;
+}
+
+.tags-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.info-section {
+    background: rgba(33, 37, 41, 0.9);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1rem;
+    color: var(--bs-gray-300);
+}
+
+.info-section h3 {
+    color: var(--gaming-accent);
+    margin-bottom: 1.5rem;
+}
+
+.info-section h4 {
+    color: var(--bs-light);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.info-section ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.info-section ul li::before {
+    content: "•";
+    color: var(--gaming-accent);
+    position: absolute;
+    left: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .class-card {
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .class-name {
+        font-size: 1.5rem;
+    }
+
+    .bonds-display {
+        font-size: 1.2rem;
+    }
+}
